@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragment.FindFragment">
+
+    <LinearLayout
+        android:layout_width="@dimen/margin150"
+        android:layout_height="@dimen/margin210"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin10"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardCornerRadius="@dimen/margin5"
+            card_view:cardElevation="@dimen/margin5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin15"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin100"
+                    android:layout_gravity="center"
+                    android:id="@+id/iv_imgurl"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin10"
+                    android:text="Class 5th books"
+                    android:maxLines="1"
+                    android:id="@+id/tv_bookname"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin10"
+                    android:drawableLeft="@drawable/ic_rupee_indian"
+                    android:drawablePadding="@dimen/margin2"
+                    android:maxLines="1"
+                    android:id="@+id/tv_price"
+                    android:text="500"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>

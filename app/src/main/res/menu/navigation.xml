@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/dashboard" />
+    <!--<item
+        android:id="@+id/navigation_find"
+        android:icon="@drawable/search_icon"
+        android:title="@string/find" />-->
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/chat_icon"
+        android:title="@string/chats" />
+
+    <item
+        android:id="@+id/navigation_sell"
+        android:icon="@drawable/ic_promotion"
+        android:title="@string/sell" />
+
+    <item
+        android:id="@+id/navigation_myads"
+        android:icon="@drawable/my_ads"
+        android:title="@string/my_ads" />
+
+    <item
+        android:id="@+id/navigation_accounts"
+        android:icon="@drawable/account_icon"
+        android:title="@string/accounts" />
+
+</menu>

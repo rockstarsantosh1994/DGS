@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin90"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:orientation="vertical"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@color/white" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin40"
+                android:src="@drawable/ic_menu_button"
+                android:tint="@color/white"
+                android:layout_margin="@dimen/margin20"
+                android:layout_alignParentLeft="true"
+                />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/et_search_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardCornerRadius="@dimen/margin5"
+            card_view:cardElevation="@dimen/margin5">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin5"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/ic_location_pin"
+                android:drawablePadding="@dimen/margin2"
+                android:drawableTint="@color/grey"
+                android:hint="Search Your Location"
+                android:inputType="text"
+                android:textColorHint="@color/grey" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:id="@+id/iv_notification"
+            android:layout_width="@dimen/margin30"
+            android:layout_height="@dimen/margin30"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="@dimen/margin15"
+            android:layout_marginLeft="@dimen/margin15"
+            android:layout_marginTop="@dimen/margin20"
+            android:layout_marginEnd="@dimen/margin15"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/notification_icon" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin70"
+        android:layout_marginRight="@dimen/margin20"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="@dimen/margin20"
+        card_view:cardElevation="@dimen/margin5">
+
+        <EditText
+            android:id="@+id/et_find"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin40"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="@dimen/margin20"
+            android:layout_marginRight="@dimen/margin20"
+            android:drawableLeft="@drawable/search_icon"
+            android:drawablePadding="@dimen/margin20"
+            android:drawableTint="@color/grey"
+            android:hint="@string/search"
+            android:inputType="text" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

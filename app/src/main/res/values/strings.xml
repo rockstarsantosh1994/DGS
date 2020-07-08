@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">DigiShare</string>
+
+    <string name="facebook_app_id">2364629920517112</string>
+    <string name="fb_login_protocol_scheme">fb2364629920517112</string>
+
+    <string name="fabric_key">fb2364629920517112</string>
+
+    <!-- <string name="google_api_key">AIzaSyAbymbEYWHWU1NjdGNbVRK0v5uY_MbO8ic</string>-->
+
+    <string name="SENDER_ID">621955370486</string>
+    <string name="notifications_admin_channel_name">chat</string>
+    <string name="notifications_admin_channel_description"> Firebase PushNotification</string>
+    <!--runnig key-->
+    <!-- <string name="google_api_key1">AIzaSyD3wXRk2lizz2cO6jhaK4Ylo1n166jq6dQ</string>-->
+    <string name="google_api_key1">AIzaSyAbymbEYWHWU1NjdGNbVRK0v5uY_MbO8ic</string>
+
+    <!--<string name="google_api_key">AIzaSyDEEcVy2gCZNaUiOkscqHRKMMgBf2Cl_Ao</string>-->
+    <!-- <string name="google_api_key">AIzaSyBPx1d9YYprWtkkIKGQJFKzIh44Ihik8ds</string>-->
+
+    <string name="find">Find</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="chats">Chat</string>
+    <string name="sell">Sell</string>
+    <string name="accounts">Accounts</string>
+    <string name="search">Search</string>
+    <string name="class_name">Class</string>
+    <string name="subject">Subject</string>
+    <string name="author">Author</string>
+    <string name="board">Board</string>
+    <string name="books_by_board">Books By Board</string>
+    <string name="books_by_class">Books By Class</string>
+    <string name="browse_categories">Browse Categories</string>
+    <string name="my_ads">My Ads</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="book_information">Book Information</string>
+    <string name="add_title">Add Title</string>
+    <string name="add_description">Add Description</string>
+    <string name="select_board">Select Board</string>
+    <string name="select_medium">Select Medium</string>
+    <string name="select_class">Select Class</string>
+    <string name="select_book_subject_wise">Select Book Subject Wise</string>
+    <string name="select_publications">Select Publications</string>
+    <string name="select_author">Select Author</string>
+    <string name="upload_photos">Upload Photos</string>
+    <string name="upload_multiple_photos_to_increase_your_deal_visibility">Upload multiple photos to increase your deal visibility</string>
+    <string name="set_price">Set Price</string>
+    <string name="price">Price <font color="red">*</font></string>
+    <string name="negotiable">Negotiable</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="add_contact_number">Add Contact Number</string>
+    <string name="select_your_location">Your Location</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="your_name">Name</string>
+    <string name="show_my_phone_number_on_ads">Show my phone number on ads</string>
+    <string name="show_my_location_on_ads">Show my location on ads</string>
+    <string name="post_now">Post Now</string>
+    <string name="submit">Submit</string>
+    <string name="details">Details</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="phone_number">Phone no</string>
+    <string name="colon">:</string>
+    <string name="pick_up_location">Location</string>
+    <string name="medium">Medium</string>
+    <string name="english_medium">English Medium</string>
+    <string name="publications">Publications</string>
+    <string name="find_class">Find Class</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="not_available"> <font color="red">Not available</font></string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="gmail">Gmail</string>
+    <string name="facebook">Facebook</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="activate">Activate</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="mark_as_sold">Mark as sold</string>
+    <string name="signup">SignUp</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile</string>
+    <string name="register">Register</string>
+    <string name="view_and_edit_your_profile"><u>View and edit your profile</u></string>
+    <string name="my_orders">My Orders</string>
+    <string name="settings">Settings</string>
+    <string name="phone_number_visibility">Phone number visibility</string>
+    <string name="logout">Logout</string>
+    <string name="share_the_app">Share the app</string>
+    <string name="rate_us">Rate us</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="digishare"><u>D</u>IGISHARE</string>
+    <string name="update">Update</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_main_navigation">MainNavigationActivity</string>
+    <string name="title_activity_forget_password">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="server_error_please_try_after_some_time">Server error.....Please try after some time!</string>
+    <string name="price1">Price</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="verify">Verify</string>
+    <string name="otp_has_been_sent_to_you_on_your_provided_mobile_phone">Otp has been sent to you on your provided mobile phone</string>
+    <string name="find_books">Find Books</string>
+    <string name="call">Call</string>
+    <string name="previous">Previous</string>
+    <string name="please_enter_valid_mobile_number_to_receive_otp">Please enter your mobile \n &amp; we will send an OTP number </string>
+    <string name="send_otp">Send Otp</string>
+    <string name="forget_password">Forget password</string>
+    <string name="create_new_password">Create new password</string>
+    <string name="please_enter_the_otp_number_that_has_been_sent_to_your_mobile">Please enter the OTP number that \n has been sent to your mobile</string>
+    <string name="reset_password">Reset Password</string>
+
+</resources>

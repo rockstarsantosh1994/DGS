@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "621955370486",
+    "firebase_url": "https://digishare-261810.firebaseio.com",
+    "project_id": "digishare-261810",
+    "storage_bucket": "digishare-261810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621955370486:android:1867e623231783fffb8bd7",
+        "android_client_info": {
+          "package_name": "com.asmobisoft.digishare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621955370486-v9jep6pncclbonosstgutru8qmr4dfhl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asmobisoft.digishare",
+            "certificate_hash": "e5121cca77225e012128831cd33d1b62ba79073f"
+          }
+        },
+        {
+          "client_id": "621955370486-1juljlskabslatno7otghcjeeplb4urs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD8oOMWEDug51PgNqyUa_GpL2MmOCglkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621955370486-1juljlskabslatno7otghcjeeplb4urs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
